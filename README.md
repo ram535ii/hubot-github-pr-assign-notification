@@ -21,6 +21,7 @@ Then add **hubot-github-pr-assign-notification** to your `external-scripts.json`
 
 
    HUBOT_GITHUB_USERNAME_ROOM_MAPPINGS - A mapping of which github username and chat room belong together.
+   
    (example:
    HUBOT_GITHUB_USERNAME_ROOM_MAPPINGS = user1:room1, user2:room2...
    So when user1 is assigned a PR the bot posts to room1.)
