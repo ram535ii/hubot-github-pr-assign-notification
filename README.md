@@ -1,4 +1,4 @@
-# Hubot Assign Issues
+# Hubot Pull Request Assign Notifications
 
 A script to notify a user whenever they are assigned to a Github pull request.
 (In the chat room of their choosing.)
