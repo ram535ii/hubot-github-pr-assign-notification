@@ -55,6 +55,6 @@ module.exports = (robot) ->
     if data.action == "assigned"
       for pair in mappings
         if data.assignee.login == pair[0]
-          robot.messageRoom pair[1], "Sire, you have been assigned to a new pull request - do yourself a favor and check it here => " + pr_url
+          robot.messageRoom pair[1], "Yo, you have been assigned to a new pull request - do yourself a favor and check it here => " + pr_url
 
     res.end "{'status' : 200}"
