@@ -1,0 +1,25 @@
+{
+  "name": "hubot-github-pr-assign-notification",
+  "version": "0.0.1",
+  "description": "Notifies whenever a user is assigned to a Github pull request to a room of your choosing",
+  "author": "Constantijn Schepens <constantijnschepens@gmail.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, github",
+  "main": "index.coffee",
+  "dependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6"
+  },
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ram535ii/hubot-github-pr-assign-notification.git"
+  },
+  "bugs": {
+    "url":"https://github.com/ram535ii/hubot-github-pr-assign-notification/issues"
+  }
+}
